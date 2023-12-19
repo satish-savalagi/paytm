@@ -1,0 +1,1445 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    /* background-color: aqua; */
+}
+
+
+
+.mainbar{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    background-color:white;
+    margin-top: 0px;
+    position:fixed;
+    top: 0px;
+    font-size: rem;
+    z-index: 300;
+    overflow: hidden;
+} 
+
+.left{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.para{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.sign-in{
+    width: 120px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 150px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00baf2;
+    border-radius: 20px;
+    color: white;
+}
+
+.sign-in img{
+    padding-left:20px;
+    font-size: 10px;
+}
+
+.cls5{
+    font-size: 18px;
+    font-weight:50%;
+    justify-content:space-between;
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 50px; 
+} 
+
+
+/* MAIN-BAR-2 */
+
+
+.main-bar2{
+    margin-top:80px;
+    height: 48px;
+    padding-top: 5px;
+    background-color: rgb(245, 242, 242);
+}
+
+.kyc{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.left-section img{
+    height: 80px;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+}
+
+.head{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    font-size: 60px;
+}
+
+.paraa{
+    position: absolute;
+    top: 450px;
+    left: 40px;
+    font-size: 1.2rem;
+}
+
+#remo{
+    position:absolute;
+    top:35rem;
+    left: 6rem;
+    height: 40px;
+    width: 230px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+#remo:hover{
+    background-color: white;
+    color: black;
+}
+
+#apple{
+    padding-left: 70px;
+    position: absolute;
+    top: 604px;
+    left: 125px;
+    font-size: 20px;
+    color: white;
+} 
+
+img[alt="logo-img"]{
+    width:19px;
+    height: 20px;
+    position: absolute;
+    top: 606px;
+    left: 220px;
+}
+
+
+ img[alt="right-logo"]{
+    height: 500px;
+    position: absolute;
+    left: 820px;
+    top: 163px;
+}
+
+
+ div .section-2{
+    margin-top: -54px;
+    position: sticky;
+} 
+
+
+                /* RECHARGE & PAY BILLS ON PAYTM. */
+
+
+.navbar-1{
+    height: 400px;
+    background-color: #00baf2;
+    position:relative;
+    top: 700px;
+    padding-left: 60px;
+    display: flex;
+    z-index: 300px;
+    overflow: hidden;
+}
+
+img[alt="cls"]{
+    height: 60px;
+}
+
+.recharge{
+    padding-top: 60px;
+    color: white;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.impa{
+    height: 145px;
+    width: 107px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+}
+
+.lamp{
+    height: 145px;
+    width: 107px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    right: 60rem;
+}
+
+.dth{
+    height: 145px;
+    width: 107px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    right: 48rem;
+}
+
+.gas{
+    height: 145px;
+    width: 107px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    right: 36rem;
+}
+
+.broadband{
+    height: 145px;
+    width: 119px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    right: 25.2rem;
+}
+
+.education{
+    height: 145px;
+    width: 107px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    right: 14rem;
+}
+
+.service{
+    height: 145px;
+    width: 107px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 14rem;
+    right: 3rem;
+}
+
+:root{
+    --bgcolor:#3b5057;
+}
+
+.impa:hover, .lamp:hover, .dth:hover, .gas:hover, .broadband:hover, .education:hover, .service:hover{
+    background-color: var(--bgcolor);
+}
+
+
+                    /* BOOK & BUY ON PAYTM */
+
+.navbar-2{
+    height: 332px;
+    background-color:rgb(29, 52, 99);
+    padding-left: 60px;
+    position: relative;
+    top: 700px;
+    right: 0px;
+    display: flex;
+    z-index: 300px;
+    overflow: hidden;
+}
+
+img[alt="cls2"]{
+    height: 59px;
+} 
+
+.paytm-head{
+    padding-top: 14px;
+    color: white;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.movie{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top:8px;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem;
+}
+
+.flight{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top:8px;
+    margin-left: 15%;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem;
+}
+
+.bus{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    margin-left: 30%;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem;
+}
+
+.train{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top:8px;
+    margin-left: 45%;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem; 
+}
+
+.buy{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top:8px;
+    margin-left: 58%;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem;
+}
+
+.in-flight{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top:8px;
+    margin-left: 70%;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem;
+}
+
+.invest{
+    height: 145px;
+    width: 125px;
+    border: solid none;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top:8px;
+    margin-left: 85%;
+    color: white;
+    font-size:17px;
+    font-weight: bold;
+    position: absolute;
+    top: 10rem;
+}
+
+:root{
+    --bgcolor:#77cde6;
+}
+
+.movie:hover, .flight:hover, .bus:hover, .train:hover, .buy:hover, .in-flight:hover, .invest:hover{
+    background-color: var(--bgcolor);
+}
+
+
+
+                /* PAYTM PAYMENT INSTRUMENT. */
+
+
+ #navbar-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.253);
+    position: absolute;
+    top: 110rem;
+    left: 7.5rem;
+    width: 70rem;
+    height: 40rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+} 
+
+#insmnt{
+    position: absolute;
+    top: 104rem;
+    left: 7rem;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}  
+
+
+ img[alt="mob-1"]{
+    position: absolute;
+    top: 7rem;
+    left: 35rem;
+    height: 450px;
+}
+
+img[alt="sml-img"]{
+    height: 5rem;
+}  
+
+ #wallet{
+    position: absolute;
+    top: -0rem;
+    left: 6rem;
+}  
+
+#col-img{
+    position:absolute;
+    top:7rem;
+    left: 8rem;
+    font-size:17px;
+    font-weight: bold;
+}
+
+.col-md-12{
+    position:absolute;
+    top:13rem;
+    left: 8rem;
+    font-size:20px;
+    font-weight: bold;
+} 
+
+#spoo{
+    position:absolute;
+    top:21rem;
+    left: 8rem;
+    font-size:17px;
+    display: inline-flex;
+    align-content: center;
+}
+
+#download-app{
+    position:absolute;
+    top:26rem;
+    left: 8rem;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+#download-app:hover{
+    background-color: white;
+    color: black;
+} 
+
+#navbar-4{
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top: 100rem;
+    left: 7.5rem;
+    width: 70rem;
+    height: 40rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+} 
+
+img[alt="multi-img"]{
+    position: absolute;
+    top: 5rem;
+    left: 34rem;
+    height: 450px;
+}
+
+img[alt="img-ruppe"]{
+    height: 70px;
+    position:absolute;
+    top:7rem;
+    left: 8rem;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#upi{
+    position: absolute;
+    top: 7rem;
+    left: 13rem;
+}
+
+#secure{
+    position:absolute;
+    top:21rem;
+    left: 8rem;
+    font-size:17px;
+    display: inline-flex;
+    align-content: center;
+}
+
+#sxx1{
+    position:absolute;
+    top:11rem;
+    left: 8rem;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#paymt-btn{
+    position:absolute;
+    top:28rem;
+    left: 8rem;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+#paymt-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#navbar-5{
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top: 104rem;
+    left: 7.5rem;
+    width: 70rem;
+    height: 40rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+img[alt="efg-z"]{
+    position: absolute;
+    top: 6rem;
+    left: 43rem;
+    height: 450px;
+}
+
+img[alt="abc-z"]{
+    height: 70px;
+    position:absolute;
+    top:7rem;
+    left: 8rem;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#wait{
+    position:absolute;
+    top:13rem;
+    left: 8rem;
+    font-size:37px;
+    font-weight: bold;
+}
+
+#month{
+    position:absolute;
+    top:21rem;
+    left: 8rem;
+    font-size:17px;
+    display: inline-flex;
+    align-content: center;
+}
+
+#learn-more{
+    position:absolute;
+    top:28rem;
+    left: 8rem;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+#learn-more:hover{
+    background-color: white;
+    color: black;
+}
+
+
+                    /* unlimited cashback section  */
+
+#navbar-6{
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top: 108rem;
+    left: 5.8rem;
+    width: 35rem;
+    height: 45rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+img[alt="ijk-z"]{
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    height: 90px;
+} 
+
+#cashback{
+    position:absolute;
+    top:9rem;
+    left: 5rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+
+#hdfc{
+    position:absolute;
+    top:17rem;
+    left: 5rem;
+    font-size:19px;
+    display: inline-flex;
+    align-content: center;
+}
+
+img[alt="mno-z"]{
+    position: absolute;
+    top: 23rem;
+    left: 2.5rem;
+    height: 348px;
+}
+
+#navbar-7{
+    flex-direction: column;
+    background-color:white;
+    position: relative;
+    top: 63rem;
+    left: 44rem;
+    width: 35rem;
+    height: 45rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+img[alt="pqr-z"]{
+    position: absolute;
+    top: 7rem;
+    left: 4rem;
+    height: 22px;
+}
+
+#india{
+    position:absolute;
+    top:9rem;
+    left: 4rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+#sbi{
+    position:absolute;
+    top:17rem;
+    left:4rem;
+    font-size:19px;
+    display: inline-flex;
+    align-content: center;
+}
+
+img[alt="stu-z"]{
+    position: absolute;
+    top: 27rem;
+    left: 2.5rem;
+    height: 290px;
+}
+
+
+                /* FINANCIAL SERVICES BY PAYTM */
+
+.navbar-8{
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top: 70rem;
+    left: -0rem;
+    width:84rem;
+    height: 40rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    /* border-radius: 20px; */
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+#financial{
+    position: absolute;
+    top: 5rem;
+    left: 6rem;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+img[alt="fin-z"]{
+    height: 5%;
+    position:absolute;
+    top:11rem;
+    left: 6rem;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#india-12{
+    position:absolute;
+    top:15rem;
+    left: 6rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+#future{
+    position:absolute;
+    top:22rem;
+    left:6rem;
+    font-size:19px;
+    display: inline-flex;
+    align-content: center;
+    line-height: 25px;
+    font-family:sans-serif;
+}
+
+#learn{
+    position:absolute;
+    top:34rem;
+    left: 8rem;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+#learn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+img[alt="uvw-z"]{
+    position: absolute;
+    top: 6rem;
+    left: 55rem;
+    height: 450px;
+}
+
+
+
+                /* <!-- BUILD LONG GOAL --> */
+
+
+.navbar-9{
+    flex-direction: column;
+    background-color: rgb(248, 246, 246);
+    position: relative;
+    top: 77rem;
+    left: 0rem;
+    width:84rem;
+    height: 50rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    /* border-radius: 20px; */
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+img[alt="dinga-z"]{
+    position: absolute;
+    top: 8rem;
+    left: 9rem;
+    height: 300px;
+}
+
+img[alt="home-z"]{
+    height: 55px;
+    position:absolute;
+    top:7rem;
+    left: 45rem;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#build{
+    position:absolute;
+    top:12rem;
+    left: 45rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+#mutual{
+    position:absolute;
+    top:22rem;
+    left:45rem;
+    font-size:19px;
+    display: inline-flex;
+    align-content: center;
+    line-height: 30px;
+    font-family:sans-serif;
+}
+
+#learn-right{
+    position:absolute;
+    top:34rem;
+    left: 45rem;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+#learn-right:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+                    /* INSURENCE MSDE EASY */
+
+
+.navbar-10{
+    flex-direction: column;
+    background-color: rgba(211, 204, 204, 0.301);
+    position: relative;
+    top: 77rem;
+    left: -0rem;
+    width:84rem;
+    height: 40rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+img[alt="ind-z"]{
+    height: 48px;
+    position:absolute;
+    top:7rem;
+    left: 4rem;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#easy-10{
+    position:absolute;
+    top:12rem;
+    left: 3rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+#get-paytm{
+    position:absolute;
+    top:16rem;
+    left: 3rem;
+    font-size:22px;
+    font-weight: bold;
+}
+
+#hover{
+    position:absolute;
+    top:28rem;
+    left: 5rem;
+    height: 45px;
+    width: 196px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+#hover:hover{
+    background-color: white;
+    color: black;
+}
+
+img[alt="xyz-z"]{
+    position: absolute;
+    top: 8rem;
+    left: 50rem;
+    height: 390px;
+}
+
+
+                    /* <!-- GET PERSONAL LOAN */
+
+
+
+.navbar-11 {
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top: 77rem;
+    left: 0rem;
+    width: 84rem;
+    height: 50rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+        10px 10px 15px rgba(0, 0, 0, 0.24);
+    /* border-radius: 20px; */
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+img[alt="cba-z"] {
+    position: absolute;
+    top: 8rem;
+    left: 6rem;
+    height: 450px;
+}
+
+img[alt="gfe-z"] {
+    height: 60px;
+    position: absolute;
+    top: 7rem;
+    left: 45rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#loan{
+    position: absolute;
+    top: 12rem;
+    left: 45rem;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#purpose{
+    position: absolute;
+    top: 20rem;
+    left: 45rem;
+    font-size: 19px;
+    display: inline-flex;
+    align-content: center;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+#solid{
+    position: absolute;
+    top: 30rem;
+    left: 45rem;
+    height: 50px;
+    width: 200px;
+    border-radius: 28px;
+    background-color: rgb(6, 6, 102);
+    color: white;
+    font-size: 20px;
+}
+
+#solid:hover{
+    background-color: white;
+    color: black;
+}
+
+
+                    /*  BUSINESS SERCICES BY PAYTM */
+
+
+
+.navbar-12{
+    flex-direction: column;
+    background-color: rgb(180, 170, 170, 0.301);
+    position: relative;
+    top: 90rem;
+    left: 4.5rem;
+    width:75rem;
+    height: 40rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.267),
+    10px 10px 15px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+#business{
+    position: absolute;
+    top: 488rem;
+    left: 6rem;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+
+#accept{
+    position:absolute;
+    top:15rem;
+    left: 6rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+#power{
+    position:absolute;
+    top:22rem;
+    left:6rem;
+    font-size:19px;
+    display: inline-flex;
+    align-content: center;
+    line-height: 25px;
+    font-family:sans-serif;
+}
+
+#beat-more{
+    position:absolute;
+    top:30rem;
+    left: 8rem;
+    height: 45px;
+    width: 170px;
+    font-size: 15px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+}
+
+#beat-more:hover{
+    background-color: white;
+    color: black;
+}
+
+
+img[alt="kji-z"]{
+    position: absolute;
+    top: 6rem;
+    left: 48.8rem;
+    height: 450px;
+} 
+
+
+
+            /* POWERED BY PAYTM */
+
+
+.navbar-13 {
+    flex-direction: column;
+    background-color: rgba(219, 212, 212, 0.301);
+    position: relative;
+    top: 95rem;
+    left: 4.5rem;
+    width: 75rem;
+    height: 35rem;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.301),
+        10px 10px 15px rgba(0, 0, 0, 0.274);
+    border-radius: 20px;
+    z-index: 300px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+
+#in-shop{
+    position:absolute;
+    top:8rem;
+    left: 6rem;
+    font-size:39px;
+    font-weight: bold;
+}
+
+#millions{
+    position:absolute;
+    top:18rem;
+    left:6rem;
+    font-size:19px;
+    display: inline-flex;
+    align-content: center;
+    line-height: 25px;
+    font-family:sans-serif;
+}
+
+#efgh{
+    position:absolute;
+    top:27rem;
+    left: 8rem;
+    height: 45px;
+    width: 170px;
+    font-size: 15px;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+}
+
+#efgh:hover{
+    background-color: white;
+    color: black;
+}
+
+
+img[alt="fee-pho-z"]{
+    position: absolute;
+    top: 6rem;
+    left: 44.1rem;
+    height: 390px;
+}  
+
+
+
+
+                /* BUISINESS TOOLS */
+
+
+#grow{
+    position: absolute;
+    top: 581rem;
+    left: 6rem;
+    margin: 0 auto 35px;
+    font-size: 37px;
+    color: #000;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+img[alt="ab-12"]{
+    position: absolute;
+    top: 589rem;
+    left: 8rem;
+    height: 250px;
+}
+
+#software{
+    position:absolute;
+    top:605rem;
+    left: 8rem;
+    font-size:25px;
+    font-weight: bold;
+}
+
+#smart{
+    position:absolute;
+    top:610rem;
+    left:8rem;
+    font-size:19px;
+    line-height: 25px;
+}
+
+a{
+    position:absolute;
+    top:615rem;
+    left: 8rem;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+img[alt="cd-34"]{
+    position: absolute;
+    top: 590rem;
+    left: 31rem;
+    height: 210px;
+}
+
+#for-app{
+    position:absolute;
+    top:605rem;
+    left: 31rem;
+    font-size:25px;
+    font-weight: bold;
+}
+
+#phone{
+    position:absolute;
+    top:610rem;
+    left:31rem;
+    font-size:19px;
+    line-height: 25px;
+}                             
+
+#lm-12{
+    position:absolute;
+    top:617rem;
+    left: 31rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+img[alt="ef-56"]{
+    position: absolute;
+    top: 590rem;
+    left: 48rem;
+    height: 210px;
+}
+
+#advertise{
+    position:absolute;
+    top:605rem;
+    left: 49rem;
+    font-size:25px;
+    font-weight: bold;
+}
+
+#mobile-2{
+    position:absolute;
+    top:610rem;
+    left:49rem;
+    font-size:19px;
+    line-height: 25px;
+}
+
+#lm-34{
+    position:absolute;
+    top:617rem;
+    left: 49rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+img[alt="gh-78"]{
+    position: absolute;
+    top: 590rem;
+    left: 67rem;
+    height: 220px;
+}
+
+#khata{
+    position:absolute;
+    top:605rem;
+    left: 67rem;
+    font-size:25px;
+    font-weight: bold;
+}
+
+#user{
+    position:absolute;
+    top:610rem;
+    left:67rem;
+    font-size:19px;
+    line-height: 25px;
+}
+
+#lm-56{
+    position:absolute;
+    top:615rem;
+    left: 67rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* FOOTER */
+
+
+.footer{
+    background-color: rgb(240, 234, 234);
+    margin-top: 150rem;
+    height: 60rem;
+    z-index: 300px;
+    overflow: hidden;
+}
+
+.ft-wrap{
+    padding: 9rem 0 0;
+    width: 80rem;
+    margin: auto;
+    padding-bottom: 15rem;
+}
+
+.ft-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid rgb(170, 165, 165);
+}
+
+.ft-header-left{
+    display: flex;
+    align-items: center;
+}
+
+.ft-header-left h3{
+    width: 23rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.ft-header-left img{
+    margin-right: 1rem;
+}
+
+.ft-header-right{
+    display: flex;
+    align-items: center;
+}
+
+.ft-header-right img{
+    width: 2.5;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-l-item{
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    color: rgb(131, 121, 121);
+}
+
+.f-l-item::after{
+    content: "";
+    flex: 1rem;
+    margin-left: 1rem;
+    border-bottom: 1px solid rgb(170, 165, 165);
+}
+
+.f-l-item img{
+    margin-left: -3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
